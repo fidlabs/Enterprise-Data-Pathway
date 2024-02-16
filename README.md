@@ -6,9 +6,7 @@ Background:
 Below is an summary of the key client requirements and processes that the Filecoin Incentive Design Lab (FIDL) team will follow to oversee proper due diligence while insuring compliance to Fil+ guidelines for DataCap allocations.
 
 Current Scope: 
-- Any client looking to onboard Enterprise (private/encrypted) datasets to Filecoin can apply to this allocator pathway. Because the data coming from an Enterprise client will be private and encrypted, we will focus our diligence efforts on confirming:
-the GitHub applicant user (KYC), the Data Owner business (KYB), and the Dataset (contents and size). The allocator will manually vet all client applicants and data owners upfront to confirm who they are, what data they are onboarding, how they will prepare the data and which SPs will be involved in onboarding copies of the data.
-One main assumption is that a storage provider will do most of the work for the actual data owners and act as the ‘client’ in the application process.
+- Any client looking to onboard Enterprise (private/encrypted) datasets to Filecoin can apply to this allocator pathway. Because the data coming from an Enterprise client will be private and encrypted, we will focus our diligence efforts on confirming: the GitHub applicant user (KYC), the Data Owner business (KYB), and the Dataset (contents and size). The allocator will manually vet all client applicants and data owners upfront to confirm who they are, what data they are onboarding, how they will prepare the data and which SPs will be involved in onboarding copies of the data. One main assumption is that a storage provider will do most of the work for the actual data owners and act as the ‘client’ in the application process.
 
 Minimum client requirements:
 - At least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.
@@ -32,9 +30,7 @@ Client Business Check (KYB)
 We currently offer two options for KYB check:
 1) We offer a third party KYB service partnership with Synaps.io ($100), that will review business and data owner documentation
 
-2) A Client can plan a virtual meeting with the client, data owner and member of the allocator team to review the dataset, confirm ownership (proof of employment, employer signoff, sharing the business license)
-and validate storage of the data by the client/applicant is approved and a contract is in place
-If requested by a client, we will utilize various non-disclosure agreements to collect required information on clients and data-owners while maintaining their privacy.
+2) Or a client can plan a virtual meeting with the client, data owner and member of the allocator team to review the dataset, confirm ownership (proof of employment, employer signoff, sharing the business license) and validate storage of the data by the client/applicant is approved and a contract is in place. If requested by a client, we will utilize various non-disclosure agreements to collect required information on clients and data-owners while maintaining their privacy.
 
 Storage Provider (SP) Usage Check
 - Clients of this pathway will have access to an SP Marketplace tool (link soon) and clients are free to work with any SPs from the vetted list. 
