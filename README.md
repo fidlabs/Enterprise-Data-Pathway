@@ -8,12 +8,12 @@ Below is an summary of the key client requirements and processes that the Fileco
 Current Scope: 
 - Any client looking to onboard Enterprise (private/encrypted) datasets to Filecoin can apply to this allocator pathway. Because the data coming from an Enterprise client will be private and encrypted, we will focus our diligence efforts on confirming: the GitHub applicant user (KYC), the Data Owner business (KYB), and the Dataset (contents and size).
 - The allocator will manually vet all client applicants and data owners upfront to confirm who they are, what data they are onboarding, how they will prepare the data and which SPs will be involved in onboarding copies of the data.
-- One main assumption is that a storage provider will do most of the work for the actual data owners and act as the ‘client’ in the application process.
+- One main assumption is that likely the lead storage provider will do most of the work for the actual data owners and act as the ‘client’ in the application process.
 
 Minimum client requirements:
 - At least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.
 - The client must set the retrieval standards upfront. If retrieval is required, SP partners need to make data available for retrieval (via an unsealed copy) on the network that can be regularly verified (through the use of manual or automated verification that includes retrieving data over the course of the DataCap allocation timeframe)
-- Clients disclose their storage provider partners upfront or designate an approved network tool they will use for SP selection
+- Clients are required to disclose their storage provider partners upfront or designate an approved network tool they will use for SP selection
 - Clients are required to apply for DataCap using the following GitHub repo LINK (coming soon) which contains questions related to the client role, data preparation, financing, dataset details, and storage provider distribution plan
 
 Diligence to be completed on clients includes:
@@ -44,8 +44,7 @@ First Time User Allocation Schedule:
 - Did you complete the third party KYC check or another form of KYC? If yes, then they become eligible to receive up to 50 TiBs of DataCap
 If no, the max they will be allowed receive at anytime is 10 TiBs of DataCap
 
-Note: For users utilizing a GitHub ID older than 2 months and have successfully onboarded public open datasets in the LDN pathway (before 2024)
-their onboarding experience will be reviewed to confirm no issues and a positive community reputation. If so, they will be considered a trusted GitHub ID user and can bypass the first allocation schedule above and be considered for the trusted user schedule below.  If not, they will follow the first time user allocation schedule.
+Note: For users utilizing a GitHub ID older than 2 months and showing to have successfully onboarded a public open dataset in the LDN pathway in the past (before 2024), then their onboarding experience will be reviewed to confirm no issues and a positive community reputation. If so, they will be considered a trusted GitHub ID user and can bypass the first allocation schedule above and be considered for the trusted user schedule below.  If not, they will follow the first time user allocation schedule.
 
 Trusted User Allocation Schedule:
 - If a user has successfully onboarded a dataset using the First time allocation schedule OR they are a trusted GitHub ID user
@@ -69,7 +68,7 @@ Two other points to note about DataCap allocation and subsequent usage:
 1) There is an expiration date of three months on any allocation of DataCap. From an allocation date, we will measure three months time and if the allocation has not been used (open or closed status), the application will be closed and remaining DataCap removed.
 2) The expectation when the complete amount of requested DataCap is allocated is that the client has completely finished onboarding their dataset and replicas. If a client receives a Datacap allocation, then closes their application before completion, they will be questioned as to why. Likewise, if a client receives a DataCap allocation and abandons the application and becomes completely non responsive, their GitHub ID will be flagged from any future participation in the pathway. 
 
-Compliance check mechanisms for the client applications:
+Compliance check mechanisms for client applications:
 - After each allocation we will manually review the on-chain deal making activity of the applicant to confirm compliance mostly relying on the AC Bot, which runs weekly, to identify non-compliance of deal making, distribution and retrievals and that information will be used to drive action on applications. The bot will be set up to automatically close applications after several allocations if thresholds are not met.
 - At any point if clients are caught providing fake or misleading information about themselves or their SP partners, we will close any open applications and add the GitHub user IDs and miner IDs involved and block them from future participation in the allocator
 
