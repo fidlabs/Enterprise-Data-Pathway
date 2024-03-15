@@ -16,9 +16,9 @@ Minimum client requirements:
 - At least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.
 - The client must set the retrieval standards upfront. If retrieval is required, SP partners need to make data available for retrieval (via an unsealed copy) on the network that can be regularly verified (through the use of manual or automated verification that includes retrieving data over the course of the DataCap allocation timeframe)
 - Clients are required to disclose their storage provider partners upfront or designate an approved network tool they will use for SP selection
-- Clients are required to apply for DataCap using the following GitHub repo LINK (coming soon) which contains questions related to the client role, data preparation, financing, dataset details, and storage provider distribution plan
+- Clients are required to apply for DataCap using the following GitHub repo [LINK](https://github.com/fidlabs/Enterprise-Data-Pathway/issues/new) which contains questions related to the client role, data preparation, financing, dataset details, and storage provider distribution plan
 
-Diligence to be completed on clients includes:
+Once an application is submitted, diligence to be completed on clients includes:
 
 New User Check
   - Is this a completely new GitHub ID? (less than 2 months old)
