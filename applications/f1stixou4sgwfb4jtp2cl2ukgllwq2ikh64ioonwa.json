@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1stixou4sgwfb4jtp2cl2ukgllwq2ikh64ioonwa",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Will",
+    "Region": "Germany",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "will.sco.tt",
+    "Social Media": "willscott",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Archival Media",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Archival Media",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://archive.org/details/tianchi-v700-ktv-960846",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "TBD",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "128GiB",
+    "Single Size Dataset": "32GiB",
+    "Replicas": 4,
+    "Weekly Allocation": "32GiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-03-19 15:51:52.471059063 UTC",
+    "Validated By": "willscott",
+    "Active": true,
+    "Updated At": "2024-03-19 15:58:17.833714832 UTC",
+    "Active Request ID": "bbf30c79-d56d-4c27-942d-a399451fbddd",
+    "On Chain Address": "f1stixou4sgwfb4jtp2cl2ukgllwq2ikh64ioonwa",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "bbf30c79-d56d-4c27-942d-a399451fbddd",
+      "Request Type": "First",
+      "Created At": "2024-03-19 15:51:52.471066641 UTC",
+      "Updated At": "2024-03-19 15:51:52.471067984 UTC",
+      "Active": false,
+      "Allocation Amount": "32GiB",
+      "Signers": [
+        {
+          "Github Username": "willscott",
+          "Signing Address": "f1r3lzgzpja2hvhcaxcdruic5qol2as27jl52xtvq",
+          "Created At": "2024-03-19 15:58:15.766000000 UTC",
+          "Message CID": "bafy2bzacedde5ocb4mao5kmxmsotcq7gju5gvkuajqzomhskv6cdvoiciduae"
+        }
+      ]
+    }
+  ]
+}
