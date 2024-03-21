@@ -29,6 +29,7 @@
   },
   "Datacap": {
     "Type": "ldn-v3",
+    "Data Type": "private",
     "Total Requested Amount": "4.32PiB",
     "Single Size Dataset": "720TiB",
     "Replicas": 4,
