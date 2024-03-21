@@ -410,7 +410,6 @@ body:
   attributes:
     label: Data Type of Application
     options:    
-      - Slingshot
       - Public, Open Dataset (Research/Non-Profit)
       - Public, Open Commercial/Enterprise
       - Private Commercial/Enterprise
