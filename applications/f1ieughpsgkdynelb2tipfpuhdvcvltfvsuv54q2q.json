@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1ieughpsgkdynelb2tipfpuhdvcvltfvsuv54q2q",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "AGENCJA PROMOCJI MOTORYZACJI A.P.M.AUTO",
+    "Region": "Poland",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://motowizja.pl/",
+    "Social Media": "https://www.facebook.com/motowizja",
+    "Social Media Type": "Facebook",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "#928",
+    "Brief history of your project and organization": "AGENCJA PROMOCJI MOTORYZACJI A.P.M.AUTO makes motorsport movies for over 20 years, we have been doing motorsport content for different televisions and also for private competitors, as well as for YouTube's channels. For today we make realizations mainly for Motowizja televisions which is the biggest motorsport one in Poland. We would like to store our big archives.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "movie files",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We receive encrypted data which we prepare using singularity",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "(https://www.youtube.com/watch?v=qfoQqS2a4ck) this is an example of ready, short movie, but mainly we 30min programs and we like to store all uncut files, which are many times bigger.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Europe",
+    "How will you be distributing your data to storage providers": "Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Eight full replicas, 5 of 40 [PiB] of Datacap\r\n\r\nPrimary SP Partner:\r\nFILDC (f01127678, f02097113, f02218935, f02239603)\r\nLocation: Europe, Poland:\r\n-> Poznan: f01127678, f02770730\r\n-> Lodz: f02239603, f02097113, f02817132, f02218935\r\n\r\nAdditional replica's partners:\r\nDSS, Australia (f01919423, f01938357)\r\nDCENT, Europe, Netherlands (f02033496, f01771403)\r\nHong Kong Morpho Technology Limited, Hong Kong (f01989888, f01926635, f01933917, f01885088, f02058048, f01999119)\r\nSaturnia, Russian Federation (f08240, f0187709, f01222595)\r\nPride Holdings, UAE, Dubai (f01907556)\r\nPiKNiK, USA, Las Vegas (f01851060)\r\nFlux Storage Pte. Ltd, Europe, Germany (f01619524)\r\nWeb3 providers LLC, Europe, Bulgaria (f020378)\r\nStander, Europe, Latvia (f099608)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Private Commercial/Enterprise",
+    "Total Requested Amount": "4.32PiB",
+    "Single Size Dataset": "720TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-03-22 14:26:45.789740085 UTC",
+    "Validated By": "martapiekarska",
+    "Active": true,
+    "Updated At": "2024-03-22 15:13:38.399792221 UTC",
+    "Active Request ID": "f448422a-1a72-4166-a1da-258ce6b82533",
+    "On Chain Address": "f1ieughpsgkdynelb2tipfpuhdvcvltfvsuv54q2q",
+    "Multisig Address": "true"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "f448422a-1a72-4166-a1da-258ce6b82533",
+      "Request Type": "First",
+      "Created At": "2024-03-22 14:26:45.789747238 UTC",
+      "Updated At": "2024-03-22 14:26:45.789748740 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "martapiekarska",
+          "Signing Address": "f1tmewdaoz2wmoocpyforkqamwevw65jehxszct6i",
+          "Created At": "2024-03-22 15:13:36.467000000 UTC",
+          "Message CID": "bafy2bzaced3rqbcdrd7l2jxfhnze3s4cb5lv6rxzg37tded7ihp57btpjyhi6"
+        }
+      ]
+    }
+  ]
+}
