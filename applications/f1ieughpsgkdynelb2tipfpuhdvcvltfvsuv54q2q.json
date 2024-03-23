@@ -40,8 +40,8 @@
     "Validated At": "2024-03-22 14:26:45.789740085 UTC",
     "Validated By": "martapiekarska",
     "Active": true,
-    "Updated At": "2024-03-22 15:13:38.399792221 UTC",
-    "Active Request ID": "f448422a-1a72-4166-a1da-258ce6b82533",
+    "Updated At": "2024-03-23 12:51:14.654770737 UTC",
+    "Active Request ID": "d93c8210-b4ed-46b9-aca6-361c529c17ff",
     "On Chain Address": "f1ieughpsgkdynelb2tipfpuhdvcvltfvsuv54q2q",
     "Multisig Address": "true"
   },
@@ -59,6 +59,22 @@
           "Signing Address": "f1tmewdaoz2wmoocpyforkqamwevw65jehxszct6i",
           "Created At": "2024-03-22 15:13:36.467000000 UTC",
           "Message CID": "bafy2bzaced3rqbcdrd7l2jxfhnze3s4cb5lv6rxzg37tded7ihp57btpjyhi6"
+        }
+      ]
+    },
+    {
+      "ID": "d93c8210-b4ed-46b9-aca6-361c529c17ff",
+      "Request Type": "Refill",
+      "Created At": "2024-03-22 16:00:04.550240267 UTC",
+      "Updated At": "2024-03-22 16:00:04.550241296 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1fpfw2wp7wu6ej47mblkbsx2etadscqp53viwckq",
+          "Created At": "2024-03-23 12:51:12.604000000 UTC",
+          "Message CID": "bafy2bzacecmmjevq6cgppgocwpnrwyjklcdwnk32rfctjfg2yryesct77nu3o"
         }
       ]
     }
