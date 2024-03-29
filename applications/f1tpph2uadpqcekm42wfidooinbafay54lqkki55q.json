@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1tpph2uadpqcekm42wfidooinbafay54lqkki55q",
+  "Issue Number": "12",
+  "Client": {
+    "Name": "Pangeo Community",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "https://pangeo-data.github.io/pangeo-cmip6-cloud/",
+    "Social Media": "https://registry.opendata.aws/?search=managedBy:esgf%20and%20pangeo",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "FrogHub has always defined itself as a tool developer and infrastructure builder in the Filecoin ecosystem. In 2019, we started to focus on technical solutions and development based on the IPFS protocol and Filecoin network. We have been working hard to become a qualified builder in the filecoin ecosystem.\r\n\r\nOur team is a very pure development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\r\n\r\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover and the nft free authoring platform NFT-Creator.\r\nIn addition, we plan to provide a sector browser for the community in 2023 and build the liquidity pledge platform STFIL on FVM.\r\n\r\nSee the links below for details.\r\n- making: https://github.com/orgs/froghub-io",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Zarr formatted data and Netcdf formatted data.\r\nThe sixth phase of global coupled ocean-atmosphere general circulation model ensemble.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "After we download data from the aws, the data will be cut into disks through Singularity, and then the hard disk will be shipped to the SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://cmip6-pds/\r\naws s3 ls --no-sign-request s3://esgf-world/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "| MinerID | Entity | City | Continent |\r\n| --------- | ---------- | ---------- | --------- |\r\n| f0870354 | Personal  | beijing | CN |\r\n| f01989372   | Personal| beijing | CN |\r\n| f02816837   | B.B  Tech| guangdong | CN |\r\n| f01907578  | ssdminer| Putian | CN |\r\n| f0123931   | ssdminer| Fuzhou | CN |\r\n| f02806894   | Chimsen | Seoul | Korea |\r\n| f02372022   | Chimsen | Tokyo | Japan |\r\n| f02810687  | DR66 Tech| HongKong | CN |\r\n| f02636860   | DR66 Tech| HongKong | CN |\r\n| f01854510  | 3cloud tech| HongKong | CN |\r\n| f02803754  | Personal | Osaka | Japan |\r\nThese are some of the SPs we are currently cooperating with, and more SPs may join in the future.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15",
+    "Single Size Dataset": "1.7",
+    "Replicas": 8,
+    "Weekly Allocation": "1"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-29 09:29:31.602655252 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1tpph2uadpqcekm42wfidooinbafay54lqkki55q",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
