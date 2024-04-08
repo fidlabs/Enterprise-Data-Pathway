@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1ty2ejqtsrifo6spbzlrneynfwarxsi53ctays4y",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "AGENCJA PROMOCJI MOTORYZACJI A.P.M.AUTO",
+    "Region": "Poland",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://motowizja.pl/",
+    "Social Media": "https://www.facebook.com/motowizja",
+    "Social Media Type": "Facebook",
+    "Role": "Storage provider filling out application on behalf of the data owner"
+  },
+  "Project": {
+    "Project Id": "#928",
+    "Brief history of your project and organization": "AGENCJA PROMOCJI MOTORYZACJI A.P.M.AUTO makes motorsport movies for over 20 years, we have been doing motorsport content for different televisions and also for private competitors, as well as for YouTube's channels. For today we make realizations mainly for Motowizja televisions which is the biggest motorsport one in Poland. We would like to store our big archives.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "movie files",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "We receive encrypted data which we prepare using singularity",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "(https://www.youtube.com/watch?v=qfoQqS2a4ck) this is an example of ready, short movie, but mainly we 30min programs and we like to store all uncut files, which are many times bigger.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "North America, Europe",
+    "How will you be distributing your data to storage providers": "Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "three full replicas, 3 x 1.44PiB = 4.32PiB [PiB]\r\n\r\nPrimary SP Partner:\r\nf02927579 | KABAT OU/FILDC | Poland, Łódź, Europe\r\nf02770730 | KABAT OU/FILDC | Poland, Poznań, Europe\r\nf01619524 | Flux Storage Pte. Ltd | Germany, Frankfurt am Main, Europe\r\nf099608 | Private/Stander | Latvia, Riga, Europe\r\nf020378 | Web3 providers LLC | Bulgaria, Asenovgrad, Europe \r\nunknown | PiKNiK | Las Vegas, USA",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4.32PiB",
+    "Single Size Dataset": "1.44PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "200TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-04-08 16:20:36.216679777 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ty2ejqtsrifo6spbzlrneynfwarxsi53ctays4y",
+    "Multisig Address": "true"
+  },
+  "Allocation Requests": []
+}
