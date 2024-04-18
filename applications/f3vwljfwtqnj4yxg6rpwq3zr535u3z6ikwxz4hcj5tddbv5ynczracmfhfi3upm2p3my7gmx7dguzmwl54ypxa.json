@@ -3,7 +3,7 @@
   "ID": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
   "Issue Number": "22",
   "Client": {
-    "Name": "TOTAL IDC",
+    "Name": "theskyzone",
     "Region": "Korea, Republic of",
     "Industry": "IT & Technology Services",
     "Website": "https://theskyzone.net/",
@@ -30,9 +30,9 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "3PiB",
-    "Single Size Dataset": "20GiB",
-    "Replicas": 5,
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "400TiB",
+    "Replicas": 7,
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
@@ -44,7 +44,7 @@
     "Active Request ID": "e43d586c-80b5-4868-975b-5131d7a8de28",
     "On Chain Address": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
     "Multisig Address": "false",
-    "edited": null
+    "edited": true
   },
   "Allocation Requests": [
     {
