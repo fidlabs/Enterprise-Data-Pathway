@@ -36,11 +36,11 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-18 13:36:12.355797886 UTC",
     "Validated By": "kevzak",
     "Active": true,
-    "Updated At": "2024-04-18 13:36:12.355803047 UTC",
+    "Updated At": "2024-04-18 13:40:42.455676579 UTC",
     "Active Request ID": "e43d586c-80b5-4868-975b-5131d7a8de28",
     "On Chain Address": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
     "Multisig Address": "false",
@@ -52,9 +52,16 @@
       "Request Type": "First",
       "Created At": "2024-04-18 13:36:12.355804325 UTC",
       "Updated At": "2024-04-18 13:36:12.355805094 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "50TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-04-18 13:40:41.627000000 UTC",
+          "Message CID": "bafy2bzaceccpigjplvtbg2tqkhbqzcwdvil37crscdsbxarl34vmlfae7hxrq"
+        }
+      ]
     }
   ]
 }
