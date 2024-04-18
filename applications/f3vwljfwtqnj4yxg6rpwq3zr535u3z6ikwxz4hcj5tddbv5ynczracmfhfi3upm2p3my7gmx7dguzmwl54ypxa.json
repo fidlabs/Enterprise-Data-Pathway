@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "ID": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
+  "Issue Number": "22",
+  "Client": {
+    "Name": "TOTAL IDC",
+    "Region": "Korea, Republic of",
+    "Industry": "IT & Technology Services",
+    "Website": "https://theskyzone.net/",
+    "Social Media": "https://theskyzone.net/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "theskyzone",
+    "Brief history of your project and organization": "Organization : Total IDC co., Ltd.\r\n• Total IDC is a corporation that develops IT services in Korea and provides services to customers.\r\n• Total IDC operates and manages its own storage data center. And based on this, we provide services to our customers.\r\n\r\nProject : theskyzone.net\r\n• We are providing our customers with a cloud storage service.\r\n• Our customers are using the service for work, personal work, and backup purposes.\r\n• Cloud storage service provides services through various channels based on web browsers, folder synchronization of Windows and Mac PCs, and iOS and Android apps.\r\n\r\n• theskyzone.net service demo\r\n  You can use the service demo through the information below.\r\n  URL : https://theskyzone.net\r\n  Demo ID : demo\r\n  Demo Password : demo17291729*",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "We have plans to store the material stored by users on theskyzone.net in Filecoin for the long term backup. We plan to use Filecoin to periodically back-up the entire data of theskyzone.net project(User-saved data and DB backup, etc.)",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "• The source of the dataset is the material stored by the user on theskyzone.net.\r\n• Users mainly use theskyzone.net for video editing, design work, photography work, and publishing work, etc.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://theskyzone.net/index.php/s/x73jT6BP3PnwEgf",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "provide ID, City, Country, Organization\r\nf01115949, Seoul, Korea\r\nf01900525, Seoul, Korea\r\nf01770778, GyuyngGi, Korea\r\nf01924824, GyuyngGi, Korea\r\nf01924891, Seoul, Korea\r\nf01927163, Seoul, Korea\r\nf01784916, DaeGu, Korea\r\nf01340400, Asan, Korea\r\n\r\nThose SPs are the Korean SP Association (cooperative).\r\nAmong those miners, we plan to store our data mainly in miners that are ready to store data((initial pledge). Also, we plan to use filswan and cidgravity together from time to time.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "20GiB",
+    "Replicas": 5,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-18 13:36:12.355797886 UTC",
+    "Validated By": "kevzak",
+    "Active": true,
+    "Updated At": "2024-04-18 13:40:42.455676579 UTC",
+    "Active Request ID": "e43d586c-80b5-4868-975b-5131d7a8de28",
+    "On Chain Address": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
+    "Multisig Address": "false",
+    "edited": null
+  },
+  "Allocation Requests": [
+    {
+      "ID": "e43d586c-80b5-4868-975b-5131d7a8de28",
+      "Request Type": "First",
+      "Created At": "2024-04-18 13:36:12.355804325 UTC",
+      "Updated At": "2024-04-18 13:36:12.355805094 UTC",
+      "Active": false,
+      "Allocation Amount": "50TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-04-18 13:40:41.627000000 UTC",
+          "Message CID": "bafy2bzaceccpigjplvtbg2tqkhbqzcwdvil37crscdsbxarl34vmlfae7hxrq"
+        }
+      ]
+    }
+  ]
+}
