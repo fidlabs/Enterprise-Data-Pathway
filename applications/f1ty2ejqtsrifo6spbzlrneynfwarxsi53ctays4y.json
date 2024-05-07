@@ -24,7 +24,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "North America, Europe",
     "How will you be distributing your data to storage providers": "Venus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "three full replicas, 3 x 1.44PiB = 4.32PiB [PiB]\r\n\r\nPrimary SP Partner:\r\nf02927579 | KABAT OU/FILDC | Poland, Łódź, Europe\r\nf02770730 | KABAT OU/FILDC | Poland, Poznań, Europe\r\nf01619524 | Flux Storage Pte. Ltd | Germany, Frankfurt am Main, Europe\r\nf099608 | Private/Stander | Latvia, Riga, Europe\r\nf020378 | Web3 providers LLC | Bulgaria, Asenovgrad, Europe \r\nunknown | PiKNiK | Las Vegas, USA",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "three full replicas, 3 x 1.44PiB = 4.32PiB [PiB]\r\n\r\nAt least two sealed copies of a dataset, stored with two separate Storage Provider entities, each in different regional locations.\r\n\r\nPrimary SP Partner:\r\nf02927579 | KABAT OU/FILDC | Poland, Łódź, Europe\r\nf02770730 | KABAT OU/FILDC | Poland, Poznań, Europe\r\nf01619524 | Flux Storage Pte. Ltd | Germany, Frankfurt am Main, Europe\r\nf099608 | Private/Stander | Latvia, Riga, Europe\r\nf020378 | Web3 providers LLC | Bulgaria, Asenovgrad, Europe \r\nf01222595, f0187709 | Saturnia | Moscow, Russian Federation",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,8 @@
     "Updated At": "2024-04-08 18:27:00.469636760 UTC",
     "Active Request ID": "4a4467e7-508c-4e5e-aa63-7d686224d9a0",
     "On Chain Address": "f1ty2ejqtsrifo6spbzlrneynfwarxsi53ctays4y",
-    "Multisig Address": "true"
+    "Multisig Address": "true",
+    "edited": false
   },
   "Allocation Requests": [
     {
