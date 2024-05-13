@@ -1,5 +1,5 @@
 {
-  "Version": 1,
+  "Version": "1.3",
   "ID": "f1ty2ejqtsrifo6spbzlrneynfwarxsi53ctays4y",
   "Issue Number": "18",
   "Client": {
@@ -12,7 +12,6 @@
     "Role": "Storage provider filling out application on behalf of the data owner"
   },
   "Project": {
-    "Project Id": "#928",
     "Brief history of your project and organization": "AGENCJA PROMOCJI MOTORYZACJI A.P.M.AUTO makes motorsport movies for over 20 years, we have been doing motorsport content for different televisions and also for private competitors, as well as for YouTube's channels. For today we make realizations mainly for Motowizja televisions which is the biggest motorsport one in Poland. We would like to store our big archives.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "movie files",
@@ -44,7 +43,7 @@
     "Active Request ID": "08b06552-2a6e-4295-8385-dd4612d135bc",
     "On Chain Address": "f1ty2ejqtsrifo6spbzlrneynfwarxsi53ctays4y",
     "Multisig Address": "true",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
