@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "theskyzone",
     "Brief history of your project and organization": "Organization : Total IDC co., Ltd.\r\n• Total IDC is a corporation that develops IT services in Korea and provides services to customers.\r\n• Total IDC operates and manages its own storage data center. And based on this, we provide services to our customers.\r\n\r\nProject : theskyzone.net\r\n• We are providing our customers with a cloud storage service.\r\n• Our customers are using the service for work, personal work, and backup purposes.\r\n• Cloud storage service provides services through various channels based on web browsers, folder synchronization of Windows and Mac PCs, and iOS and Android apps.\r\n\r\n• theskyzone.net service demo\r\n  You can use the service demo through the information below.\r\n  URL : https://theskyzone.net\r\n  Demo ID : demo\r\n  Demo Password : demo17291729*",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "We have plans to store the material stored by users on theskyzone.net in Filecoin for the long term backup. We plan to use Filecoin to periodically back-up the entire data of theskyzone.net project(User-saved data and DB backup, etc.)",
@@ -36,11 +35,11 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-18 13:36:12.355797886 UTC",
     "Validated By": "kevzak",
     "Active": true,
-    "Updated At": "2024-05-08 23:00:05.865819997 UTC",
+    "Updated At": "2024-05-13 13:19:58.649890430 UTC",
     "Active Request ID": "ced510f7-3068-462d-badc-5957b1e86873",
     "On Chain Address": "f3vwljfwtqnj4yxg6rpwq3zr535u3z6ikwxz4hcj5tddbv5ynczracmfhfi3upm2p3my7gmx7dguzmwl54ypxa",
     "Multisig Address": "false",
@@ -68,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2024-05-08 23:00:05.865826810 UTC",
       "Updated At": "2024-05-08 23:00:05.865827857 UTC",
-      "Active": true,
-      "Allocation Amount": "100TiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "250TiB",
+      "Signers": [
+        {
+          "Github Username": "kevzak",
+          "Signing Address": "f1v24knjbqv5p6qrmfjj5xmlaoddzqnon2oxkzkyq",
+          "Created At": "2024-05-13 13:19:58.107000000 UTC",
+          "Message CID": "bafy2bzacec6yt677zs6agnbiaw4y37ax6k4ntgt5ac3d45brxcxsiti74dwjq"
+        }
+      ]
     }
   ]
 }
