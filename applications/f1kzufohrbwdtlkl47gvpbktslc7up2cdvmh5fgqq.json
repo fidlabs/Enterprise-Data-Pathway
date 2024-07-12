@@ -35,7 +35,7 @@
     "Weekly Allocation": ""
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-06-13 17:19:13.015157221 UTC",
     "Validated By": "kevzak",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "3891bb9e-f5a1-41f6-bb08-0014d3522353",
     "On Chain Address": "f1kzufohrbwdtlkl47gvpbktslc7up2cdvmh5fgqq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
