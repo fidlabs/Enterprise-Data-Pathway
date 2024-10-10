@@ -1,6 +1,6 @@
 # Enterprise-Data-Pathway
 
-Contact: kevin@fidl.tech or @KZ on Filecoin Slack
+Contact: mplocic@fidl.tech or @Marta on Filecoin Slack
 
 Background:
 - The details of this allocator pathway were initially described in an application to the Fil+ Governance Team in December 2023: [LINK](https://github.com/filecoin-project/notary-governance/issues/997). 
@@ -27,7 +27,7 @@ New User Check
 
 Client ID Check (KYC)
 - Because the contents of the dataset are private, applicants will be asked complete a free know your customer (KYC) check to confirm themself as a human user associated with a speicific GitHub ID.
-- With our KYC check design, users are asked to validate their ID and livelihood via a link on filplus.storage and their submitted information is then encrypted and stored in a decentralized manner across the third party provider, Togggle.io, servers. This information is never shared with the allocator team, nor in public in this GitHub repo. 
+- As part of our KYC check project, users are asked to confirm their identity via gitcoin passport, which confirms it and then provides us with a numerical analysis result. None of the personally identifiable information is collected by gitcoin passport, or anyone associated with FIDL. To pass the KYC process, a user must have a score of at least 20.
 
 Client Business Check (KYB)
 - Because the contents of the dataset are not publicly retrievable, all dataset owner businesses must complete a know your business, KYB, check to confirm the business exists, is legit, and someone from the data owner team (business) has approved onboarding of the dataset.
