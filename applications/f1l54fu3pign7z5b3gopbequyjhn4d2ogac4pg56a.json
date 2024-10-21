@@ -32,7 +32,7 @@
     "Total Requested Amount": "1 PiB",
     "Single Size Dataset": "18 GiB",
     "Replicas": 3,
-    "Weekly Allocation": ""
+    "Weekly Allocation": "200TiB"
   },
   "Lifecycle": {
     "State": "Granted",
