@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1j44hd5rxindqftcnp2einqvei4wjrlk5mcgutey",
   "Issue Number": "71",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
   "Client": {
     "Name": "Akave, INC",
     "Region": "IT & Technology Services",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "50TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-11-25 11:10:45.140301939 UTC",
+    "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-09-30 23:09:39.088035469 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-11-25 11:10:45.140306167 UTC",
+    "Active Request ID": "91258a16-535a-42d3-b865-d9e446518004",
     "On Chain Address": "f1j44hd5rxindqftcnp2einqvei4wjrlk5mcgutey",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "91258a16-535a-42d3-b865-d9e446518004",
+      "Request Type": "First",
+      "Created At": "2024-11-25 11:10:45.140308464 UTC",
+      "Updated At": "2024-11-25 11:10:45.140309760 UTC",
+      "Active": true,
+      "Allocation Amount": "256TiB",
+      "Signers": []
+    }
+  ]
 }
