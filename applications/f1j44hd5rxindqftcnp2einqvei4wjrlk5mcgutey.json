@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-11-25 11:16:10.312867587 UTC",
+    "Validated At": "2024-12-09 15:24:37.153767304 UTC",
     "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-11-25 11:16:10.312864323 UTC",
-    "Active Request ID": "91258a16-535a-42d3-b865-d9e446518004",
+    "Updated At": "2024-12-09 15:24:37.153766521 UTC",
+    "Active Request ID": "dfc37fd9-0d5b-413f-a5f9-7088a1d8c90e",
     "On Chain Address": "f1j44hd5rxindqftcnp2einqvei4wjrlk5mcgutey",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,28 @@
           "Created At": "2024-11-25 11:16:07.503000000 UTC",
           "Message CID": "bafy2bzaceddphqou7hcio7iowjuclud3rgxbj7ta2qa6ooll6ldlpmy6offey",
           "Increase allowance CID": "bafy2bzacecvv7tj5zz352yi54zp26wpwbuejr2acyldzrafitmoswyrl2kifu"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "69d0afa6-4d8a-4554-b4fc-a7dac0abbb0f",
+      "Created At": "2024-12-09 15:24:37.153758974 UTC",
+      "Updated At": "2024-12-09 15:24:37.153762051 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2639429
+      ],
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacea6tnana2omqplekthwvljeoty6phim3h6sjhdylqbprzhvwu5dlg": [
+              "2639429"
+            ]
+          }
         }
       ]
     }
