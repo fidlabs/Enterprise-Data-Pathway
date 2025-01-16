@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-12-09 15:24:37.153767304 UTC",
+    "Validated At": "2025-01-16 14:07:41.184524285 UTC",
     "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-12-09 15:24:37.153766521 UTC",
-    "Active Request ID": "dfc37fd9-0d5b-413f-a5f9-7088a1d8c90e",
+    "Updated At": "2025-01-16 14:07:41.184523560 UTC",
+    "Active Request ID": "752fc040-131a-4dca-b1bc-e3b878ff8316",
     "On Chain Address": "f1j44hd5rxindqftcnp2einqvei4wjrlk5mcgutey",
     "Multisig Address": "false",
     "edited": false
@@ -81,6 +81,29 @@
           "Add Allowed Storage Providers CID": {
             "bafy2bzacea6tnana2omqplekthwvljeoty6phim3h6sjhdylqbprzhvwu5dlg": [
               "2639429"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "8228918c-73c7-45db-a085-dd172501da62",
+      "Created At": "2025-01-16 14:07:41.184515408 UTC",
+      "Updated At": "2025-01-16 14:07:41.184519021 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2639429,
+        1992431,
+        1857342
+      ],
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceaamw6fmruukmo56isisny72js6diwmfeoip6dbdgb6kxlvkdawai": [
+              "1992431",
+              "1857342"
             ]
           }
         }
