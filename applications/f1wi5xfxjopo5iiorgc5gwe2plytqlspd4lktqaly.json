@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
   "Issue Number": "76",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
   "Client": {
     "Name": "wwm",
     "Region": "IT & Technology Services",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "30TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-01-22 09:50:46.997318077 UTC",
+    "Validated By": "martplo",
     "Active": true,
-    "Updated At": "2024-11-07 04:47:18.214594351 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-01-22 09:50:46.997322476 UTC",
+    "Active Request ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
     "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
+      "Request Type": "First",
+      "Created At": "2025-01-22 09:50:46.997324836 UTC",
+      "Updated At": "2025-01-22 09:50:46.997325999 UTC",
+      "Active": true,
+      "Allocation Amount": "128TiB",
+      "Signers": []
+    }
+  ]
 }
