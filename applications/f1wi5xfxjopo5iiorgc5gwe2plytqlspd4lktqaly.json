@@ -36,7 +36,7 @@
     "Weekly Allocation": "30TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-01-23 12:21:14.144680600 UTC",
     "Validated By": "martplo",
     "Active": true,
@@ -44,7 +44,7 @@
     "Active Request ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
     "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
