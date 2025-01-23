@@ -1,0 +1,68 @@
+{
+  "Version": "1.3",
+  "ID": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
+  "Issue Number": "76",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
+  "Client": {
+    "Name": "wwm",
+    "Region": "IT & Technology Services",
+    "Industry": "",
+    "Website": "wwmining.co.kr",
+    "Social Media": "@CM_JH",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "Pack files into tar and use boost to create car files",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1UlDq0fdbuuzBCBzcKpE1u0rYWVfwMEQ8?hl=ko",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "Confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "10TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "30TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-01-23 12:21:14.144680600 UTC",
+    "Validated By": "martplo",
+    "Active": true,
+    "Updated At": "2025-01-23 12:21:14.144677280 UTC",
+    "Active Request ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
+    "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
+      "Request Type": "First",
+      "Created At": "2025-01-22 09:50:46.997324836 UTC",
+      "Updated At": "2025-01-22 09:50:46.997325999 UTC",
+      "Active": false,
+      "Allocation Amount": "128TiB",
+      "Signers": [
+        {
+          "Github Username": "martplo",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-01-23 12:21:10.819000000 UTC",
+          "Message CID": "bafy2bzacecb5s7ehqny7455ha3b3k7jpwvm2ux274ml4dnd4siyrry7dwl5s6",
+          "Increase allowance CID": "bafy2bzacebcaxsb5gyfbbi7pttju2w4ra2lzfjrjh3yfhi5p4kowhufwymzci"
+        }
+      ]
+    }
+  ]
+}
