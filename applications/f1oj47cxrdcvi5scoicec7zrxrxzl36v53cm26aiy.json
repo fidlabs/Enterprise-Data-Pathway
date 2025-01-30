@@ -30,7 +30,7 @@
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
     "Total Requested Amount": "40 TiB",
-    "Single Size Dataset": "18 GiB",
+    "Single Size Dataset": "20 TiB",
     "Replicas": 2,
     "Weekly Allocation": "2 TiB"
   },
