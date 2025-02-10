@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-01-23 12:21:14.144680600 UTC",
-    "Validated By": "martplo",
+    "Validated At": "2025-02-10 13:05:42.721130674 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-01-23 12:21:14.144677280 UTC",
-    "Active Request ID": "49d32cb8-b59e-4b4c-9821-58adf6106bad",
+    "Updated At": "2025-02-10 13:05:42.721129809 UTC",
+    "Active Request ID": "6f245cc7-6061-4d48-bf7c-e3af577dea6b",
     "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,33 @@
           "Created At": "2025-01-23 12:21:10.819000000 UTC",
           "Message CID": "bafy2bzacecb5s7ehqny7455ha3b3k7jpwvm2ux274ml4dnd4siyrry7dwl5s6",
           "Increase allowance CID": "bafy2bzacebcaxsb5gyfbbi7pttju2w4ra2lzfjrjh3yfhi5p4kowhufwymzci"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "7f06281f-5370-43be-a962-5ffe6894956f",
+      "Created At": "2025-02-10 13:05:42.721122392 UTC",
+      "Updated At": "2025-02-10 13:05:42.721125526 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2943119,
+        2860778,
+        1222595,
+        3270850,
+        3277367
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacea2jtly6c3cng5gdllj3txfrrhqwhwawtqe4ny6xnu4jpfwczkk3i": [
+              "3270850",
+              "3277367"
+            ]
+          }
         }
       ]
     }
