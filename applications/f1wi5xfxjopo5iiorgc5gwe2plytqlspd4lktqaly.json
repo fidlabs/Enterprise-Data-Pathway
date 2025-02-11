@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-02-10 13:05:42.721130674 UTC",
+    "Validated At": "2025-02-11 09:14:41.310067636 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-10 13:05:42.721129809 UTC",
-    "Active Request ID": "6f245cc7-6061-4d48-bf7c-e3af577dea6b",
+    "Updated At": "2025-02-11 09:14:41.310067 UTC",
+    "Active Request ID": "65506121-8818-4548-87d1-4200b52ac47f",
     "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
     "Multisig Address": "false",
     "edited": false
@@ -84,6 +84,29 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Add Allowed Storage Providers CID": {
             "bafy2bzacea2jtly6c3cng5gdllj3txfrrhqwhwawtqe4ny6xnu4jpfwczkk3i": [
+              "3270850",
+              "3277367"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "af66b9f3-edf5-44b5-8d04-31938e477c74",
+      "Created At": "2025-02-11 09:14:41.310058985 UTC",
+      "Updated At": "2025-02-11 09:14:41.310062558 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2943119,
+        2860778,
+        1222595
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacec7svc7un6m6qx3e3pjinikit65o5okrhwvlv77jq5ctwr56lo2y6": [
               "3270850",
               "3277367"
             ]
