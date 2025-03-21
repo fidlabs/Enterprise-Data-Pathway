@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-02-11 09:14:41.310067636 UTC",
+    "Validated At": "2025-03-21 11:24:12.889953069 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-02-11 09:14:41.310067 UTC",
-    "Active Request ID": "65506121-8818-4548-87d1-4200b52ac47f",
+    "Updated At": "2025-03-21 11:24:12.889952337 UTC",
+    "Active Request ID": "58ab28ce-b757-45de-a639-1088d313aedd",
     "On Chain Address": "f1wi5xfxjopo5iiorgc5gwe2plytqlspd4lktqaly",
     "Multisig Address": "false",
     "edited": false
@@ -111,6 +111,25 @@
               "3277367"
             ]
           }
+        }
+      ]
+    },
+    {
+      "ID": "8da8ea65-bf0b-4ec8-9869-8502efd7bc75",
+      "Created At": "2025-03-21 11:24:12.889944544 UTC",
+      "Updated At": "2025-03-21 11:24:12.889947939 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2943119,
+        2860778,
+        1222595
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzaceduyi354bnihwod642dgon2rbp3qmhdwjcvstywwteehvrc5fpydc"
         }
       ]
     }
