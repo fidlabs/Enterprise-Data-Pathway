@@ -1,0 +1,120 @@
+{
+  "Version": "1.3",
+  "ID": "f1xlmvopfuur6yfwompltedl3gwwsshnswvmiavqy",
+  "Issue Number": "126",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
+  "Client": {
+    "Name": "bizhost",
+    "Region": "IT & Technology Services",
+    "Industry": "",
+    "Website": "www.bizhost.co.kr",
+    "Social Media": "instagram",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner (Client), Data Preparer, Storage Provider (filling out application on behalf of the data owner), Data Onramp Entity (that provides data onboarding services to multiple clients)"
+  },
+  "Project": {
+    "Brief history of your project and organization": "",
+    "Is this project associated with other projects/ecosystem stakeholders?": "",
+    "Describe the data being stored onto Filecoin": "",
+    "Where was the data currently stored in this dataset sourced from": "",
+    "How do you plan to prepare the dataset": "We have established a systematic data management infrastructure, enabling us to securely and efficiently deliver image and log data via SFTP.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "",
+    "In which geographies do you plan on making storage deals": "",
+    "How will you be distributing your data to storage providers": "",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0101087\nf01830824\nf0121958\nf0513351",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "20 TiB",
+    "Single Size Dataset": "10 TiB",
+    "Replicas": 2,
+    "Weekly Allocation": "20TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-18 13:01:05.027131512 UTC",
+    "Validated By": "dampud",
+    "Active": true,
+    "Updated At": "2025-08-18 13:01:05.027126367 UTC",
+    "Active Request ID": "93708e4b-b61e-40aa-a3a5-b1173dd47063",
+    "On Chain Address": "f1xlmvopfuur6yfwompltedl3gwwsshnswvmiavqy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "93708e4b-b61e-40aa-a3a5-b1173dd47063",
+      "Request Type": "First",
+      "Created At": "2025-08-18 12:46:25.058384911 UTC",
+      "Updated At": "2025-08-18 12:46:25.058385833 UTC",
+      "Active": false,
+      "Allocation Amount": "20890720927744 B",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Created At": "2025-08-18 13:01:00.329000000 UTC",
+          "Message CID": "bafy2bzacecbuchworz5s654mswqwh4uvjtl56pk37zb3w6hettts5piy6yoyw",
+          "Increase allowance CID": "bafy2bzacec5rqmbtkspt3t2zhd567eywn2oxis2nb3iourku4bna3whfaqyne"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "463a19a9-3c9d-40cb-8c11-ab2c8a0e19c5",
+      "Created At": "2025-08-18 12:56:06.215995262 UTC",
+      "Updated At": "2025-08-18 12:56:06.215998711 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        101087,
+        1040469,
+        513351,
+        121958
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacebjfsgmoqkv65j3eqhmcffvhkmih5b6zgvfwmvxj6b7llfnjcf5wg",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebpupd7d3yeuyvfdhyrvql3vvph5dyempsbznha522kc4ckxkjjdi": [
+              "101087",
+              "1040469",
+              "513351",
+              "121958"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "45dae0f8-4455-451d-92f9-a278dfd28b9a",
+      "Created At": "2025-08-18 12:58:36.150731930 UTC",
+      "Updated At": "2025-08-18 12:58:36.150735409 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        101087,
+        513351,
+        121958
+      ],
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzaceazopknfj3arl2u45d2lrj6mow7qleaqrn4fnb6ffh7pjoosmfojq": [
+              "1040469"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
