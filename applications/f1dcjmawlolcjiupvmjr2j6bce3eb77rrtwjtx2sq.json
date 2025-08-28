@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "2442",
     "Brief history of your project and organization": "At Rebel Iron, we focus on providing managed infrastructure that's ideal for AI and Web3 applications. We pride ourselves on delivering solutions that are decentralized, secure, and efficient, meeting the needs of institutions and enterprises worldwide. Our expertise lies in leveraging cutting-edge technology to support demanding AI workloads, making us adept at handling large-scale data storage projects on platforms like Filecoin.",
     "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
     "Describe the data being stored onto Filecoin": "The data we're storing has been carefully scraped from the internet, focusing on specific topics that our clients are interested in for AI training. Typically includes scrapped data from Reddit, Wiki, and google search results.",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "Declined",
     "Validated At": "",
     "Validated By": "",
-    "Active": true,
-    "Updated At": "2024-04-08 14:43:51.073991062 UTC",
-    "Active Request ID": "",
+    "Active": false,
+    "Updated At": "2025-08-28 08:18:40.763531147 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1dcjmawlolcjiupvmjr2j6bce3eb77rrtwjtx2sq",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": []
 }
