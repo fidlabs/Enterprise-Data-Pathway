@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-08-28 07:35:05.118013116 UTC",
+    "Validated At": "2025-08-28 07:39:35.679890333 UTC",
     "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-08-28 07:35:05.118009363 UTC",
-    "Active Request ID": "9fa1b6cb-bdc2-4f72-a3b9-728d1ad7ad44",
+    "Updated At": "2025-08-28 07:39:35.679889523 UTC",
+    "Active Request ID": "667ccfed-12f8-4c3a-a80c-e68ad550b856",
     "On Chain Address": "f410fl27c4o2fjbcr7ed7ewcbkarurpy3ucxr2coez2i",
     "Multisig Address": "false",
     "edited": false
@@ -60,6 +60,48 @@
           "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
           "Created At": "2025-08-28 07:35:01.394000000 UTC",
           "Increase allowance CID": "bafy2bzacecdfvfxogo2iiynalm4sdmba7jbju7x6c3gzly3sq4rwp2hzpjz6a"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "5475f9c5-a988-4db8-a132-d84ebe8e7c00",
+      "Created At": "2025-08-28 07:39:35.679873887 UTC",
+      "Updated At": "2025-08-28 07:39:35.679878761 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        10446,
+        2639429,
+        1992431,
+        1857342,
+        2224274,
+        2274508,
+        2815620,
+        3270850,
+        3277367
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "dampud",
+          "Signing Address": "f1msap4wvgzzv4xlzeq6kycmgx55ferfloxnt2rcy",
+          "Set Max Deviation CID": "bafy2bzacec2zns3lgsq77blj6zzjnojteljgxoswrchuxoc77q6w56dzytktc",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacec2lwbkdkbps3naeffbgerzmxwj557xluc5tmfcc3vvkmfoa5mkug": [
+              "10446",
+              "2639429",
+              "1992431",
+              "1857342",
+              "2224274",
+              "2274508",
+              "2815620",
+              "3270850"
+            ],
+            "bafy2bzacebnmitkui2fiew4czy4o7ofqhhhaa6ofms23j34pjioskpua434e2": [
+              "3277367"
+            ]
+          }
         }
       ]
     }
