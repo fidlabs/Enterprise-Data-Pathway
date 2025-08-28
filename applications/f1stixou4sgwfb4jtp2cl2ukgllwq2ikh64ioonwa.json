@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Archival Media",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Archival Media",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "32GiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2024-03-19 15:51:52.471059063 UTC",
     "Validated By": "willscott",
-    "Active": true,
-    "Updated At": "2024-03-19 15:58:17.833714832 UTC",
-    "Active Request ID": "bbf30c79-d56d-4c27-942d-a399451fbddd",
+    "Active": false,
+    "Updated At": "2025-08-28 09:52:40.561111619 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1stixou4sgwfb4jtp2cl2ukgllwq2ikh64ioonwa",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": [
     {
