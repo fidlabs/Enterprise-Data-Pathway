@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f410fl27c4o2fjbcr7ed7ewcbkarurpy3ucxr2coez2i",
   "Issue Number": "129",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
   "Client": {
     "Name": "Akave",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "10 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-08-28 07:33:05.989191206 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-08-25 15:18:49.566975087 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-08-28 07:33:05.989195355 UTC",
+    "Active Request ID": "9fa1b6cb-bdc2-4f72-a3b9-728d1ad7ad44",
     "On Chain Address": "f410fl27c4o2fjbcr7ed7ewcbkarurpy3ucxr2coez2i",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "9fa1b6cb-bdc2-4f72-a3b9-728d1ad7ad44",
+      "Request Type": "First",
+      "Created At": "2025-08-28 07:33:05.989197965 UTC",
+      "Updated At": "2025-08-28 07:33:05.989198912 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
