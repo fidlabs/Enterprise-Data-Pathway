@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "2256",
     "Brief history of your project and organization": "Asia Television Limited (Chinese: 亞洲電視有限公司, also known as ATV) is a digital media and broadcasting company in Hong Kong. Established as the first television service in Hong Kong as Rediffusion Television (Chinese: 麗的電視/麗的呼聲) on 29 May 1957, it shifted to terrestrial television on 30 November 1973, and was renamed Asia Television on 24 September 1982. ATV operated two main over-the-air channels: the Cantonese-language ATV Home and the English-language ATV World.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Videos, films and other recordings created or belongs to Asia Television Limited.",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "50 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "Declined",
     "Validated At": "",
     "Validated By": "",
-    "Active": true,
-    "Updated At": "2024-03-28 08:13:41.002122971 UTC",
-    "Active Request ID": "",
+    "Active": false,
+    "Updated At": "2025-08-28 08:16:01.000281466 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1zqxtp66woilzxlbvdlixnm5yttimhhokpq65wja",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": []
 }
