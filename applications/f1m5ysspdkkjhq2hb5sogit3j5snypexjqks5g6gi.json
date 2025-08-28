@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "1968",
     "Brief history of your project and organization": "The research of Fogmeta Labs spans multiple levels from system technology, infrastructure, and middleware to services and solutions, and involves future systems, network technology and business, distributed systems and management, information management, and interactive and innovative services. Based on the views on and practices in the industry, Fogmeta also solves the problem of business complexity through operations optimization and other technologies.\r\n\r\nMeta Ark is a data onboarding service provided by Fogmeta Labs for helping clients store their corporate datasets onto IPFS/Filecoin. Please refer to: https://fogmetalabs.com/metaark.",
     "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
     "Describe the data being stored onto Filecoin": "These are private corporate datasets owned by our Meta Ark clients. Meta Ark is a data onboarding service provided by Fogmeta Labs for helping clients store their corporate datasets onto IPFS/Filecoin. Please refer to: https://fogmetalabs.com/metaark.",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "Declined",
     "Validated At": "",
     "Validated By": "",
-    "Active": true,
-    "Updated At": "2024-03-26 07:02:37.122991575 UTC",
-    "Active Request ID": "",
+    "Active": false,
+    "Updated At": "2025-08-28 08:15:20.752311825 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1m5ysspdkkjhq2hb5sogit3j5snypexjqks5g6gi",
-    "Multisig Address": "true"
+    "Multisig Address": "true",
+    "edited": null
   },
   "Allocation Requests": []
 }
