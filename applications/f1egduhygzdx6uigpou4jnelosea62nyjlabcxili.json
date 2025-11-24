@@ -18,7 +18,7 @@
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "Mintera will help Marcazor Conseil prepare the data in an operationally safe and reproducible manner.\nFiles and folders from Marcazor Conseil's storage infra will be organized and converted into CAR files in order to fill the appropriate number of 64 GiB CC sectors.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "They are private",
-    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
     "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
     "In which geographies do you plan on making storage deals": "Europe",
