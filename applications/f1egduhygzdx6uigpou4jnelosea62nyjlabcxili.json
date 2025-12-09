@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1egduhygzdx6uigpou4jnelosea62nyjlabcxili",
   "Issue Number": "139",
+  "Client Contract Address": "f410fqslkkgx5ehy4qnghg6uhy55exo2tg5mpck7jpri",
   "Client": {
     "Name": "Marcazor Conseil",
     "Region": "France",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "10TiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-12-09 15:06:13.557758387 UTC",
+    "Validated By": "dampud",
     "Active": true,
-    "Updated At": "2025-12-02 17:40:57.621086133 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-12-09 15:06:13.557763397 UTC",
+    "Active Request ID": "584edd2d-ac00-42e9-bbd2-d7278588d06c",
     "On Chain Address": "f1egduhygzdx6uigpou4jnelosea62nyjlabcxili",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "584edd2d-ac00-42e9-bbd2-d7278588d06c",
+      "Request Type": "First",
+      "Created At": "2025-12-09 15:06:13.557766540 UTC",
+      "Updated At": "2025-12-09 15:06:13.557767699 UTC",
+      "Active": true,
+      "Allocation Amount": "27487790694400 B",
+      "Signers": []
+    }
+  ]
 }
