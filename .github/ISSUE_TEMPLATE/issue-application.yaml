@@ -378,14 +378,14 @@ body:
       - Encrypted, private data
   validations:
     required: true
-- type: checkbox
+- type: checkboxes
   attributes:
     label: Manifest location
     description: For publicly accessible datasets, how will users be able to find the dataset?
     options: 
-      - Accessible through the official Filecoin dataset discovery (Currently toads.directory, must be prepared according to TOADS standards)
-      - Accessible through another website (give details below)
-      - This won't be publicly accessible
+      - label: Accessible through the official Filecoin dataset discovery (Currently toads.directory, must be prepared according to TOADS standards)
+      - label: Accessible through another website (give details below)
+      - label: This won't be publicly accessible
    validations:
     required: true   
 - type: input
