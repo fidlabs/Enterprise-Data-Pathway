@@ -412,7 +412,7 @@ body:
       - Hot - data should be always available for retrievals (RPA 90%+)
       - Sometimes - retrievability checks over 75%, whole dataset should be retrievable in 8/10 of attempts.
       - Raraly - retrievability checks over 75%, and dataset should be made available within 24h of request.
-   validations:
+  validations:
     required: true
 - type: dropdown
   attributes:
@@ -422,7 +422,7 @@ body:
       - Fast - sustained 1 Gbps.
       - Normal - sustained 300 Mbps.
       - I have lots of time - sustained 1Mbps.
-   validations:
+  validations:
     required: true
 - type: dropdown
   attributes:
