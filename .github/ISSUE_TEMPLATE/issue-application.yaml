@@ -398,6 +398,7 @@ body:
   attributes:
     label: What type of payment proof will you provide?
     description: It is a general expectation that SPs should be paid for storage.
+    options:
       - Off-chain (invoice, bank statement etc)
       - Non Filecoin on-chain (txID on a non-Filecoin chain)
       - Filecoin txID
@@ -407,7 +408,7 @@ body:
 - type: dropdown
   attributes:
     label: What retrievability guarantees do you expect for this dataset?
-    description: How readily available should the dataset be
+    description: How readily available should the dataset be?
     options: 
       - Hot - data should be always available for retrievals (RPA 90%+)
       - Sometimes - retrievability checks over 75%, whole dataset should be retrievable in 8/10 of attempts.
