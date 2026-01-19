@@ -392,6 +392,8 @@ body:
   attributes:
     label: URL under which the dataset will be discoverable
     description: This is for publicly accessible datasets published in exploreres/directories other than the official Filecoin directory.  
+  validations:
+    required: false
 - type: dropdown
   attributes:
     label: What type of payment proof will you provide?
