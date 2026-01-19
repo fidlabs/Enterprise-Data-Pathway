@@ -369,7 +369,7 @@ body:
 - type: markdown
   attributes:
     value: | 
-    # Service Class Expectation 
+    ## Service Class Expectation 
 - type: dropdown
   attributes:
     label: Data Type of Application
@@ -386,8 +386,8 @@ body:
       - label: Accessible through the official Filecoin dataset discovery (Currently toads.directory, must be prepared according to TOADS standards)
       - label: Accessible through another website (give details below)
       - label: This won't be publicly accessible
-   validations:
-    required: true   
+  validations:
+    required: true
 - type: input
   attributes:
     label: URL under which the dataset will be discoverable
