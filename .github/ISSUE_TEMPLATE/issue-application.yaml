@@ -327,8 +327,8 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: | 
-    ## About DataCap request 
+    value: |
+      # About DataCap request
 - type: input
   attributes:
     label: Total amount of DataCap being requested 
@@ -368,8 +368,8 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: | 
-    ## Service Class Expectation 
+    value: |
+      # Service Class Expectation
 - type: dropdown
   attributes:
     label: Data Type of Application
