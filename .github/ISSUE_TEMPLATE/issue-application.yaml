@@ -406,7 +406,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: What retrievability guarantees do you expect for this dataset?
+    label: "What retrievability guarantees do you expect for this dataset?"
     description: "How readily available should the dataset be? Do you want it to be like a website - always online or more like a library, where you receive indformation once it is ready for download? Tools used: RPA and by random attempts to download full pieces."   
     options: 
       - "Hot - data should be always available for retrievals (RPA 90%+)"
