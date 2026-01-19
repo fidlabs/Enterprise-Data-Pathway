@@ -402,7 +402,7 @@ body:
       - Off-chain (invoice, bank statement etc)
       - Non Filecoin on-chain (txID on a non-Filecoin chain)
       - Filecoin txID
-      - None
+      - No Payment
   validations:
     required: true
 - type: dropdown
