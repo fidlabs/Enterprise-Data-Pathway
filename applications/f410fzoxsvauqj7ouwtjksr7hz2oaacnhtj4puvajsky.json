@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f410fzoxsvauqj7ouwtjksr7hz2oaacnhtj4puvajsky",
+  "Issue Number": "145",
+  "Client": {
+    "Name": "Arbitr Labs LLC",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "",
+    "Social Media": "Arbitr Labs",
+    "Social Media Type": "Slack",
+    "Role": "Data onramp entity that provides data onboarding services to multiple clients"
+  },
+  "Project": {
+    "Brief history of your project and organization": "StorageBites is a data onramp platform by ArbitrLabs LLC that uses Filecoin as its durable storage layer.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "private datasets",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "Data is ingested via S3-compatible API and converted into CAR files by the StorageBites pipeline.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "The data is private",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "North America, Greater China, Europe, South America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01518369, United States\n2. f03373373, China\n3. f03559995, Hong Kong\n4. f03619150, Germany\n5. f03673681, Brazil",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "50TiB",
+    "Single Size Dataset": "25TiB",
+    "Replicas": 2,
+    "Weekly Allocation": "5TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2026-03-25 23:42:28.738389202 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f410fzoxsvauqj7ouwtjksr7hz2oaacnhtj4puvajsky",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
