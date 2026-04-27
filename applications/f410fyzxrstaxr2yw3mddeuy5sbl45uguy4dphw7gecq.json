@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f410fyzxrstaxr2yw3mddeuy5sbl45uguy4dphw7gecq",
+  "Issue Number": "149",
+  "Client": {
+    "Name": "Dapper Labs",
+    "Region": "Canada",
+    "Industry": "Web3 / Crypto",
+    "Website": "",
+    "Social Media": "https://x.com/dapperlabs",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Dapper Labs is the company behind NBA Top Shot, the officially licensed NBA digital collectibles platform. Founded in 2018, Dapper Labs built the Flow blockchain and has facilitated over $1 billion in NBA Top Shot transactions across hundreds of thousands of collectors globally. NBA Top Shot moments are officially licensed video highlights representing significant cultural and financial value to the collector community.\nThis application seeks Filecoin archival storage for approximately 85,000+ rendered media assets (~500GB) comprising video highlight clips and hero images associated with NBA Top Shot Moments. More rendered media assets will be uploaded to FileCoin as they are minted on the Flow blockchain. These assets are currently pinned on IPFS via Pinata and are publicly accessible via their content identifiers (CIDs). We are seeking Filecoin sealed storage to provide a cryptographically verifiable archival layer independent of any single centralized provider.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "The data being stored onto Filecoin are the video and image assets associated with a NBA Top Shot Moment NFT. \n\nFor example, here are the associated assets for a Top Shot Moment with NFT ID 51270528\n\nMedias:\n  - HTTPFile  image/jpeg     https://assets.nbatopshot.com/media/51270528?width=512\n  - HTTPFile  video/mp4      https://assets.nbatopshot.com/media/51270528/video\n\n  - IPFSFile  PLAYER         QmNsjRZrRHNBRGyhUuWWYKteic2h7ezkchaq6Fu1rkqBAK\n  - HTTPFile  PLAYER         https://ipfs.dapperlabs.com/ipfs/QmNsjRZrRHNBRGyhUuWWYKteic2h7ezkchaq6Fu1rkqBAK\n\n  - IPFSFile  VIDEO_SQUARE   QmV6b5F2Pvba8eHjJTdBqVFzwY7iWpjgRFY6ybAs8q7Tun\n  - HTTPFile  VIDEO_SQUARE   https://ipfs.dapperlabs.com/ipfs/QmV6b5F2Pvba8eHjJTdBqVFzwY7iWpjgRFY6ybAs8q7Tun\n\n  - IPFSFile  HERO           QmXqyspzY3xd8yadYAQVSiMQzz6X6zNaTK7eNVc3F2efyG\n  - HTTPFile  HERO           https://ipfs.dapperlabs.com/ipfs/QmXqyspzY3xd8yadYAQVSiMQzz6X6zNaTK7eNVc3F2efyG\n\n  - IPFSFile  VIDEO_TALL     QmPMAJu2rNXsqeEwzcsgEdD3YM7m8YBfsdxvWqys6mSv7M\n  - HTTPFile  VIDEO_TALL     https://ipfs.dapperlabs.com/ipfs/QmPMAJu2rNXsqeEwzcsgEdD3YM7m8YBfsdxvWqys6mSv7M\n\n  - IPFSFile  VIDEO          QmT7aDxdpSazks4647NqripCNQeKR5d2bZYhDZUYWfNyDj\n  - HTTPFile  VIDEO          https://ipfs.dapperlabs.com/ipfs/QmT7aDxdpSazks4647NqripCNQeKR5d2bZYhDZUYWfNyDj\n\nAll assets are listed here: https://dapperlabs.github.io/dapperlabs-ipfs-reference-app/",
+    "Where was the data currently stored in this dataset sourced from": "Google Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "IPFS assets associated with the NBA Top Shot project will be listed here: https://dapperlabs.github.io/dapperlabs-ipfs-reference-app/\n\nIPFS assets for a Top Shot Moment NFT can also be queried for on the Flow blockchain.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "We are aiming to do more research with tools like filscan and filrep to identify appropriate storage providers to help store the  NBA Top Shot assets.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4 TiB",
+    "Single Size Dataset": "2 TiB",
+    "Replicas": 2,
+    "Weekly Allocation": "500 GiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2026-04-27 22:41:39.515002729 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f410fyzxrstaxr2yw3mddeuy5sbl45uguy4dphw7gecq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
