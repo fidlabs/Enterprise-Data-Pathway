@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "North America",
     "How will you be distributing your data to storage providers": "IPFS",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "We are aiming to do more research with tools like filscan and filrep to identify appropriate storage providers to help store the  NBA Top Shot assets.",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. Korea f01690643\n2. Canada f01247\n3. USA f01049918\n4. USA f064218\n5. China f01136409",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
   },
   "Datacap": {
